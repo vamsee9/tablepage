@@ -1,9 +1,6 @@
 <template>
   <v-app>
-    <v-app-bar app color="orange" dark>
-      <v-spacer></v-spacer>
-    </v-app-bar>
-
+    <v-app-bar app color="orange" elevate-on-scroll collapse-on-scroll > Beers 🍻 </v-app-bar>
     <v-main>
       <BeerList />
     </v-main>
@@ -11,7 +8,7 @@
 </template>
 
 <script>
-import BeerList from './components/BeerList.vue'
+import BeerList from "./components/BeerList.vue";
 
 export default {
   name: "App",
